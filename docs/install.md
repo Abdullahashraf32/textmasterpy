@@ -42,6 +42,9 @@ Uninstalling TextMasterPy
 If you want to remove TextMasterPy from your system, run on terminal:
 pip uninstall textmasterpy
 
+note:
+When using pip commands to install the framework on a Google Colab notebook, make sure to precede each pip command with an exclamation mark.
+
 Getting Started
 Now that TextMasterPy is installed, you can import it into your Python environment and start using its built-in functions.
 import textmasterpy
