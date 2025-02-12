@@ -1,6 +1,12 @@
 # TextMasterPy Framework
 
 This framework is designed to assist developers in performing efficient text analysis and processing tasks for both English and Arabic texts. It is built to handle a variety of common text processing operations and is structured into three categories: general processing functions (usable for both English and Arabic), English-specific functions, and Arabic-specific functions. 
+Author: Abdullah Ashraf
+name: TextMasterPy framework
+version: 1.0.1
+project date: 11/02/2025
+date created: 09/02/2025
+update date: 12/02/2025
 
 ## Framework Overview
 
@@ -77,7 +83,7 @@ help(space_count)
 
 Installation
 To install this framework, simply clone the repository:
-https://github.com/Abdullahashraf32/textprocessing.git
+https://github.com/Abdullahashraf32/textmasterpy/tree/textmasterpy
 Ensure you have Python 3 installed.
 Contributions
 Feel free to contribute by submitting issues or pull requests.
