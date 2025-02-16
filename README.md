@@ -8,7 +8,7 @@ project date: 11/02/2025
 date created: 09/02/2025
 update date: 12/02/2025
 
-## Framework Overview
+FRAMEWORK OVERVIEW
 
 This framework consists of **33 generic functions** organized into three main categories:
 
@@ -67,26 +67,31 @@ This framework will be updated regularly to include new features and improvement
 4. **diacritics_removal**: Removes diacritics from Arabic text.
 5. **singular_extended_arabic**: Identifies singular extended Arabic nouns ending with "اء".
 
-## Usage Example
+USAGE EXAMPLE
 
+Here are some examples about how to use the framework:
 Below is an example of how you can use the `space_count` function:
 
-from generalprocessing import space_count
-
-text = "This is an example text."
-result = space_count(text)
-print(f"Number of spaces: {result}")
-Help Function
+import textmasterpy
+print(textmasterpy.generalprocessing("This is an example text."))
+Another example about how to use title_format function:
+import textmasterpy
+print(textmasterpy.englishprocessing.title_format("the old man and the sea"))
+Another third example about how to use diacritics_removal function:
+import textmasterpy
+print(textmasterpy.arabicprocessing.diacritics_removal("هَذَا أَخِي الصَّغِيرُ"))
+HELP FUNCTION
 For detailed information about any specific function, you can use Python's built-in help() function:
 
-help(space_count)
+import textmasterpy
+help(textmasterpy.generalprocessing.character_count)
 
-Installation
+INSTALLATION
 To install this framework, simply clone the repository:
 https://github.com/Abdullahashraf32/textmasterpy/tree/textmasterpy
 Ensure you have Python 3 installed.
-Contributions
-Feel free to contribute by submitting issues or pull requests.
-License
+CONTRIBUTIONS
+TextMasterPy is a collaborative effort built with passion and dedication. This project would not have been possible without the contributions, insights, and support from a dedicated team of developers, linguists, and tech enthusiasts. We believe in the power of teamwork and collective innovation, whether in refining algorithms, in enhancing functionality, or in improving documentation. Every contribution has played a vital role in shaping this framework. We warmly welcome new contributors. If you have ideas for improvement, bug fixes, or new feature suggestions, feel free to submit a pull request or open an issue on our GitHub repository. Your input is invaluable in making TextMasterPy even better. 
+LICENSE
 This framework is open-source and available under the MIT License.
 Best wishes!
