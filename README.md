@@ -87,9 +87,22 @@ import textmasterpy
 help(textmasterpy.generalprocessing.character_count)
 
 INSTALLATION
-To install this framework, simply clone the repository:
+Before installing TextMasterPy framework, ensure that you have Python 3.6 or later installed on your device.
+Once Python is installed, you can install TextMasterPy using pip:
+pip install textmasterpy
+To verify that the installation was successful, run on terminal:
+pip show textmasterpy
+If you see details about the framework, including its version and author, this means that the installation was successful.
+To avoid conflicts with other Python packages, it's highly recommended to use a virtual environment.
+To update TextMasterPy to the latest version, run on terminal:
+pip install --upgrade textmasterpy
+If you want to remove TextMasterPy from your system, run on terminal:
+pip uninstall textmasterpy
+note:
+When using pip commands to install the framework on a Google Colab notebook, make sure to precede each pip command with an exclamation mark.
+You can also clone the framework repository on github to instrall it:
 https://github.com/Abdullahashraf32/textmasterpy/tree/textmasterpy
-Ensure you have Python 3 installed.
+
 CONTRIBUTIONS
 TextMasterPy is a collaborative effort built with passion and dedication. This project would not have been possible without the contributions, insights, and support from a dedicated team of developers, linguists, and tech enthusiasts. We believe in the power of teamwork and collective innovation, whether in refining algorithms, in enhancing functionality, or in improving documentation. Every contribution has played a vital role in shaping this framework. We warmly welcome new contributors. If you have ideas for improvement, bug fixes, or new feature suggestions, feel free to submit a pull request or open an issue on our GitHub repository. Your input is invaluable in making TextMasterPy even better. 
 LICENSE
